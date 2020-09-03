@@ -26,5 +26,3 @@ begin
         end while;
     return result;
 end;
-
-select array_combine('[121,17]', '["Lorem Ipsum",12344, "hehe"]') as displays, json_insert('{}', '$."123"', 1);
